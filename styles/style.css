@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: quicksand;
+}
+
+/* nav style */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    margin-bottom: 100px;
+}
+.left-content{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    gap: 17px;
+}
+.nav-links{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+.nav-links li{
+    list-style-type: none;
+    font-weight: bold;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.list-home a{
+    font-weight: bold;
+    color:orange;
+}
+.list-about a{
+color: skyblue;
+}
+.list-facilities a{
+color: #05D4DF;
+}
+.list-admission a{
+color: #5D58EF;
+}
+.nav-btn{
+    background-color: orange;
+    color: white;
+    padding:10px 60px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+/* banner-style */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.emp{
+    color: orange;
+}
+
+.to-vis{
+    color: rgb(67, 196, 247);
+}
+
+.banner-p{
+    font-size: 1.25rem;
+}
+
+.banner-btn{
+    background-color: black;
+    padding:10px 47px;
+    font-style: 1.25rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+@media screen and (max-width:576px) {
+
+    /* responsive nav */
+
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-links, .nav-btn, .nav-title{
+        visibility: hidden;
+    }
+    .menu-icon{
+        width:30px;
+        height:5px;
+        margin:5px 0px;
+        background-color: black;
+    }
+    .left-content{
+        justify-content: space-around;
+    }
+    nav{
+        border-bottom: 1px solid orange;
+    }
+
+    /* responsive banner */
+
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-image img{
+        width:100%;
+    }
+}
