@@ -113,7 +113,6 @@ color: #5D58EF;
 
 .box-container{
     display: flex;
-    gap: 50px;
     margin-bottom: 100px;
 }
 
@@ -167,6 +166,10 @@ color: #5D58EF;
 
 /* stories style */
 
+.standard-curriculum{
+    display: flex;
+    justify-content: center;
+}
 .stories{
     display: flex;
     justify-content: center;
@@ -174,12 +177,19 @@ color: #5D58EF;
     margin-top: 200px;
 }
 
+.sc-container{
+    text-align: center;
+}
 .stories-title{
     text-align: center;
     font-size: 2.88rem;
     font-weight: 700;
 }
 
+.box-container{
+    display: flex;
+    justify-content: center;
+}
 .date-btn{
     background-color: #3CD8E8;
     padding: 18px 18px;
@@ -189,7 +199,7 @@ color: #5D58EF;
     border-radius:47.93px;
     margin-left: 50px;
 }
-.box-parent{
+.box-grandchild{
     display: flex;
     gap: 100px;
 }
@@ -305,14 +315,18 @@ color: #5D58EF;
     .banner-image img{
         width:100%;
     }
-    .box-container{
-        flex-direction: column;
+
+    /* main responsive */
+
+
+    .standard-curriculum{
+        justify-content: center;
     }
     .boxes-a, .boxes-b, .boxes-c{
         width:90%;
     }
     
-    .box-parent{
+    .box-grandchild{
         flex-direction: column;
         width:100%;
     }
@@ -334,5 +348,9 @@ color: #5D58EF;
     }
     .big-box{
         display: none;
+    }
+    .box-container{
+        display: flex;
+        justify-content: center;
     }
 }
