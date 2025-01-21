@@ -108,6 +108,7 @@ color: #5D58EF;
 .box-container{
     display: flex;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .box-title{
@@ -157,6 +158,12 @@ color: #5D58EF;
 .box-p{
     margin-bottom: 50px;
 }
+
+/* stories style */
+
+.stories{
+    display: flex;
+}
 @media screen and (max-width:576px) {
 
     /* responsive nav */
@@ -187,6 +194,12 @@ color: #5D58EF;
         text-align: center;
     }
     .banner-image img{
+        width:100%;
+    }
+    .box-container{
+        flex-direction: column;
+    }
+    .boxes-a, .boxes-b, .boxes-c{
         width:100%;
     }
 }
