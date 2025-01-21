@@ -107,6 +107,55 @@ color: #5D58EF;
 
 .box-container{
     display: flex;
+    gap: 50px;
+}
+
+.box-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.boxes-a, .boxes-b, .boxes-c{
+    text-align: center;
+    width: 450px;
+    padding: 100px 0px;
+    border-radius: 18.86px;
+}
+
+.boxes-a{
+    background-image: linear-gradient(to top , white , rgb(68, 202, 255));
+}
+
+.boxes-b{
+    background-image: linear-gradient(to top , white , rgb(255, 178, 35));
+}
+
+.boxes-c{
+    background-image: linear-gradient(to top , white  , #a561fe);
+}
+
+.sc-title{
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+.boxes a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-a{
+    color:#64C8FF;
+}
+.btn-b{
+    color:#F0AA00;
+}
+.btn-c{
+    color:#8700FF;
+}
+.box-p{
+    margin-bottom: 50px;
 }
 @media screen and (max-width:576px) {
 
