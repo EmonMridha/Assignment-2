@@ -311,4 +311,28 @@ color: #5D58EF;
     .boxes-a, .boxes-b, .boxes-c{
         width:90%;
     }
+    
+    .box-parent{
+        flex-direction: column;
+        width:100%;
+    }
+    .big-box{
+      width:100%;
+    }
+    .right-boxes{
+        gap:5px;
+        width:100%;
+    }
+    .small-images{
+        width:100%;
+    }
+    .stories{
+        justify-content: center;;
+    }
+    .big-box-image-container img{
+        width:100%;
+    }
+    .big-box{
+        display: none;
+    }
 }
