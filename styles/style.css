@@ -105,6 +105,9 @@ color: #5D58EF;
     justify-content: center;
 }
 
+.box-container{
+    display: flex;
+}
 @media screen and (max-width:576px) {
 
     /* responsive nav */
