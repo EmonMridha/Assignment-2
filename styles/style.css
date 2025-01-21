@@ -166,6 +166,11 @@ color: #5D58EF;
 
 /* stories style */
 
+.box-parent{
+display: flex;
+gap: 100px;
+}
+
 .standard-curriculum{
     display: flex;
     justify-content: center;
