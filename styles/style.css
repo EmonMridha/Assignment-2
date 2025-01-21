@@ -98,6 +98,13 @@ color: #5D58EF;
     border: none;
 }
 
+/* sc-styles */
+
+.standard-curriculum{
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width:576px) {
 
     /* responsive nav */
