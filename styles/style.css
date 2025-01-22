@@ -111,6 +111,12 @@ color: #5D58EF;
     background-position: center;
 }
 
+.stories{
+    background-image:url(../assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .box-container{
     display: flex;
     margin-bottom: 100px;
@@ -168,7 +174,7 @@ color: #5D58EF;
 
 .box-parent{
 display: flex;
-gap: 100px;
+gap: 50px;
 }
 
 .standard-curriculum{
@@ -178,8 +184,11 @@ gap: 100px;
 .stories{
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to top , rgb(251, 214, 144) , white);
     margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/bg.png),linear-gradient(to top , rgb(243, 224, 189) , white);
 }
 
 .sc-container{
@@ -288,6 +297,62 @@ gap: 100px;
     border: none;
     font-weight: 600;
 }
+
+/* footer style */
+
+.ab{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container{
+    background-color: #01ACFD;
+    display: flex;
+    justify-content:center;
+    padding:100px;
+}
+.footer-title{
+    font-size: 2.63rem;
+    color: white;
+    font-weight: 700;
+}
+
+.footer-child{
+    display: flex;
+    gap: 200px;
+}
+
+.middle p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.middle{
+    text-align: start;
+}
+
+.foot-nav li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.foot-nav li a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-p{
+    color: white;
+}
+
+.right p{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 @media screen and (max-width:576px) {
 
     /* responsive nav */
@@ -357,5 +422,20 @@ gap: 100px;
     .box-container{
         display: flex;
         justify-content: center;
+    }
+
+    /* footer responsive */
+
+    .footer-child{
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .footer-container{
+        padding:0px;
+        justify-content: start;
+       
     }
 }
