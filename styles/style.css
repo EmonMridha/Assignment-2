@@ -202,14 +202,14 @@ color: #5D58EF;
     border-left: 8px solid white;
     transform: rotate(45deg);
     left: 30px;
-    top: 35px;
+    top: 30px;
 }
 
-.right{
+.dan{
     transform: rotate(90deg);
 }
 
-.left{
+.bam{
     transform: rotate(-90deg);
 }
 .arrow-button{
@@ -441,6 +441,10 @@ gap: 50px;
     }
     .boxes-a, .boxes-b, .boxes-c{
         width:90%;
+    }
+
+    .arrow-button{
+        display: none;
     }
     
     .box-grandchild{
