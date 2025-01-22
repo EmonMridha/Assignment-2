@@ -370,7 +370,7 @@ gap: 50px;
 
 .footer-child{
     display: flex;
-    gap: 200px;
+    gap: 300px;
 }
 
 .middle p{
@@ -444,8 +444,7 @@ gap: 50px;
         justify-content: center;
     }
     .boxes-a, .boxes-b, .boxes-c{
-        width:90%;
-        margin-left: 10px;
+        width:95%;
     }
 
     .arrow-button{
