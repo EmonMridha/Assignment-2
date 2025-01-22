@@ -6,6 +6,13 @@ body{
     margin: 0px;
 }
 
+marquee{
+    background: red;
+    color:white;
+    font-weight: bold;
+    direction: down;
+}
+
 /* nav style */
 
 .nav-container{
